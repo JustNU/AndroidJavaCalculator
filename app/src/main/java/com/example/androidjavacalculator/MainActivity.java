@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -14,17 +15,17 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView calculatorText;
-    private Button button_0;
-    private Button button_1;
-    private Button button_2;
-    private Button button_3;
-    private Button button_4;
-    private Button button_5;
-    private Button button_6;
-    private Button button_7;
-    private Button button_8;
-    private Button button_9;
-    private Button button_clear;
+    private Button button0;
+    private Button button1;
+    private Button button2;
+    private Button button3;
+    private Button button4;
+    private Button button5;
+    private Button button6;
+    private Button button7;
+    private Button button8;
+    private Button button9;
+    private Button buttonClear;
 
     private final String KEY_PARAMETERS = "key";
 
@@ -46,30 +47,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void Init() {
         calculatorText = findViewById(R.id.calculatorText);
 
-        button_0 = findViewById(R.id.button_0);
-        button_1 = findViewById(R.id.button_1);
-        button_2 = findViewById(R.id.button_2);
-        button_3 = findViewById(R.id.button_3);
-        button_4 = findViewById(R.id.button_4);
-        button_5 = findViewById(R.id.button_5);
-        button_6 = findViewById(R.id.button_6);
-        button_7 = findViewById(R.id.button_7);
-        button_8 = findViewById(R.id.button_8);
-        button_9 = findViewById(R.id.button_9);
-        button_clear = findViewById(R.id.button_clear);
+        button0 = findViewById(R.id.button_0);
+        button1 = findViewById(R.id.button_1);
+        button2 = findViewById(R.id.button_2);
+        button3 = findViewById(R.id.button_3);
+        button4 = findViewById(R.id.button_4);
+        button5 = findViewById(R.id.button_5);
+        button6 = findViewById(R.id.button_6);
+        button7 = findViewById(R.id.button_7);
+        button8 = findViewById(R.id.button_8);
+        button9 = findViewById(R.id.button_9);
+        buttonClear = findViewById(R.id.button_clear);
 
-        button_0.setOnClickListener(this);
-        button_1.setOnClickListener(this);
-        button_2.setOnClickListener(this);
-        button_3.setOnClickListener(this);
-        button_4.setOnClickListener(this);
-        button_5.setOnClickListener(this);
-        button_6.setOnClickListener(this);
-        button_7.setOnClickListener(this);
-        button_8.setOnClickListener(this);
-        button_9.setOnClickListener(this);
-        button_9.setOnClickListener(this);
-        button_clear.setOnClickListener(buttonClearOnClick);
+        button0.setOnClickListener(this);
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
+        button3.setOnClickListener(this);
+        button4.setOnClickListener(this);
+        button5.setOnClickListener(this);
+        button6.setOnClickListener(this);
+        button7.setOnClickListener(this);
+        button8.setOnClickListener(this);
+        button9.setOnClickListener(this);
+        button9.setOnClickListener(this);
+        buttonClear.setOnClickListener(buttonClearOnClick);
     }
 
     // set back to default 0 on pressing clear button
@@ -86,35 +87,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         String numberToAdd = "";
 
-        if (v == button_0) {
-            numberToAdd = button_0.getText().toString();
+        if (v == button0) {
+            numberToAdd = button0.getText().toString();
         }
-        if (v == button_1) {
-            numberToAdd = button_1.getText().toString();
+        if (v == button1) {
+            numberToAdd = button1.getText().toString();
         }
-        if (v == button_2) {
-            numberToAdd = button_2.getText().toString();
+        if (v == button2) {
+            numberToAdd = button2.getText().toString();
         }
-        if (v == button_3) {
-            numberToAdd = button_3.getText().toString();
+        if (v == button3) {
+            numberToAdd = button3.getText().toString();
         }
-        if (v == button_4) {
-            numberToAdd = button_4.getText().toString();
+        if (v == button4) {
+            numberToAdd = button4.getText().toString();
         }
-        if (v == button_5) {
-            numberToAdd = button_5.getText().toString();
+        if (v == button5) {
+            numberToAdd = button5.getText().toString();
         }
-        if (v == button_6) {
-            numberToAdd = button_6.getText().toString();
+        if (v == button6) {
+            numberToAdd = button6.getText().toString();
         }
-        if (v == button_7) {
-            numberToAdd = button_7.getText().toString();
+        if (v == button7) {
+            numberToAdd = button7.getText().toString();
         }
-        if (v == button_8) {
-            numberToAdd = button_8.getText().toString();
+        if (v == button8) {
+            numberToAdd = button8.getText().toString();
         }
-        if (v == button_9) {
-            numberToAdd = button_9.getText().toString();
+        if (v == button9) {
+            numberToAdd = button9.getText().toString();
         }
 
         if (calculatorText.getText().toString().equals("0"))
@@ -129,14 +130,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     // save calculator text
     @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
+    public void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
         savedInstanceState.putString(KEY_PARAMETERS, calculatorText.getText().toString());
     }
 
     // load calculator text
     @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         calculatorText.setText(savedInstanceState.getString(KEY_PARAMETERS));
     }

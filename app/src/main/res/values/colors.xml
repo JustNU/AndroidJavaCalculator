@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="themeWhite">#D9DCDF</color>
+    <color name="themeBlack">#1E1F22</color>
+    <color name="buttonNumber">#2F97A4</color>
+    <color name="buttonOperators">#7A3EEB</color>
+    <color name="buttonClear">#DE382A</color>
+    <color name="buttonEquals">#4CAF50</color>
 </resources>

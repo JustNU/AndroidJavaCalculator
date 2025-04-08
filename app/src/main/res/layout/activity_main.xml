@@ -36,11 +36,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/seven"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -48,11 +49,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/eight"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -60,11 +62,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/nine"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -72,11 +75,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:backgroundTint="#DE382A"
+            android:backgroundTint="@color/buttonClear"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/clear"
+            android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -94,11 +98,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/four"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -106,11 +111,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/five"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -118,11 +124,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/six"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -130,10 +137,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
+            android:backgroundTint="@color/buttonOperators"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/divide"
+            android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -151,11 +160,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/one"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -163,11 +173,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/two"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -175,11 +186,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/three"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -187,10 +199,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
+            android:backgroundTint="@color/buttonOperators"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/multiply"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -209,10 +223,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@color/buttonOperators"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/plus"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -220,11 +236,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="#2F97A4"
+            android:backgroundTint="@color/buttonNumber"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/zero"
+            android:textColor="@color/white"
             android:textSize="20sp"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -233,10 +250,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@color/buttonOperators"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/minus"
+            android:textColor="@color/white"
             android:textSize="20sp" />
 
         <Button
@@ -244,11 +263,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:backgroundTint="#4CAF50"
+            android:backgroundTint="@color/buttonEquals"
             android:insetLeft="4dp"
             android:insetRight="4dp"
             android:padding="0dp"
             android:text="@string/equals"
+            android:textColor="@color/white"
             android:textSize="20sp"
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
