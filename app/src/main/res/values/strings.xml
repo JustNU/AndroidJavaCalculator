@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidJavaCalculator</string>
+    <string name="app_name">Android Java Calculator</string>
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
@@ -16,5 +16,10 @@
     <string name="multiply">*</string>
     <string name="equals">=</string>
     <string name="clear">CLEAR</string>
-    <string name="calculatorText">0</string>
+    <string name="calculatorText">NaN</string>
+    <string name="dot">.</string>
+    <string name="nav_aboutApp">About App</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="aboutAppMessage">Made by JustNU using Android Studio for St. Petersburg Technological College</string>
 </resources>
