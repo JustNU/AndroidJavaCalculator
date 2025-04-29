@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // handle pressing about app option
             if (item.getItemId() == R.id.about_app) {
                 // create new alert dialog
-                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(binding.navView.getContext())
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this)
                         .setTitle(R.string.nav_aboutApp)
                         .setMessage(R.string.aboutAppMessage)
                         .setPositiveButton(R.string.nav_close, null);
